@@ -38,22 +38,22 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
 #img-1{
-    background-image: url(/imagem/tenis1.jpg);
+    background-image: url(imagem/tenis1.jpg);
 }
 #img-2{
-    background-image: url(/imagem/tenis2.jpg);
+    background-image: url(imagem/tenis2.jpg);
 }
 #img-3{
-    background-image: url(/imagem/tenis3.jpg);
+    background-image: url(imagem/tenis3.jpg);
 }
 #img-4{
-    background-image: url(/imagem/tenis4.jpg);
+    background-image: url(imagem/tenis4.jpg);
 }
 #img-5{
-    background-image: url(/imagem/tenis5.jpg);
+    background-image: url(imagem/tenis5.jpg);
 }
 #img-6{
-    background-image: url(/imagem/tenis6.jpg);
+    background-image: url(imagem/tenis6.jpg);
 }
 h3{
     margin-bottom: 10px;
