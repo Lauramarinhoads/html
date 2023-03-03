@@ -1,0 +1,86 @@
+*{
+    padding: 0; /*define para o navegador , que o espaçamento a ser utilizado na pagina é igual a zero*/
+    margin:0; /*define o valor zero como margem para a página*/
+    box-sizing: border-box;/*o espaçamento do padding conta pra dentro da caixa*/
+    font-family: Arial, Helvetica, sans-serif/*define o tipo de fonte que sera utilizada na página*/;
+}
+header{ /*Configura o cabeçalho da página*/
+ background-color: #033f84; /*Altera a cor de fundo da area do cabeçalho*/
+ color: rgb(7, 16, 32);/*altera a cor da fonte*/
+padding: 15px;/*espaçamento entre o texto e as margens*/
+text-align: center;/*alinhamento do texto no centro*/ 
+border-bottom:cadetblue 3px solid; /*adiciona uma borda inferior com 3 pixels de espessura*/
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*Grid de produtos*/
+.container{
+    background-color: rgb(170, 232, 211); /*muda a cor de fundo da seção container*/
+    min-height: 60vh;/*alturaminima da seção deve ser de 60% da tela*/
+    padding: 50px;/*espaçamento de 50px na*/
+    
+}
+.product-container {
+    max-width: 1200px;/*largura maxima da divisão card*/
+    margin: 0 auto/*margem 0 na altura e centralizar... */
+    
+} 
+.card{
+    width: 31%;
+    display: inline-block;
+}
+.product-image {
+    background-position: center;
+    background-size: cover;
+    width: 100%;/*ocupar 100% do espaço disponivel no card*/
+    height: 300px /*Altura da imagem*/
+    
+     
+    
+}
+#img-1{
+    background-image: url(/imagem/tenis1.jpg);
+}
+#img-2{
+    background-image: url(/imagem/tenis2.jpg);
+}
+#img-3{
+    background-image: url(/imagem/tenis3.jpg);
+}
+#img-4{
+    background-image: url(/imagem/tenis4.jpg);
+}
+#img-5{
+    background-image: url(/imagem/tenis5.jpg);
+}
+#img-6{
+    background-image: url(/imagem/tenis6.jpg);
+}
+h3{
+    margin-bottom: 10px;
+    color:#033f84;
+    font-size:24px
+}
+.card p{
+    margin-bottom:10px
+}
+
+.btn{
+    display:block;/*exibir o conteudo no formato de um bloco*/
+    width: 100%;/*ocupar100% do espaço disponivelno card*/
+    text-align: center;/*alinhar o texto no centro do espaço indicado pelo comando width*/
+    text-transform:uppercase;/*esxibe o texto em letra maiuscula*/
+    text-decoration: none;/*remove o sublinhado do textp*/
+    background-color: #033f84;/*altera a cor de fundo do display block(botao)*/
+    color:aliceblue;/*muda a cor da fonte do texto*/
+    padding: 15px;/*espaçamento de 15px ao redor do display block*/
+    margin-bottom: 10px;/*adiciona uma margem abaixo do botao de 10px*/
+    border-radius: 10px;/*areddonda os cantos do botão*/
+}
+.btn:hover{/*altera o comportamento do botão*/
+    background-color:blue;/*altera a cor de fundo do botao*/
+}
+   footer{
+background-color: #033f84;/*altera as configuraçoes do rodapé*/
+text-align: 80px;
+color:aquamarine
+   } 
