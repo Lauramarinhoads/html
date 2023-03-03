@@ -38,22 +38,22 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
 #img-1{
-    background-image: url(/imagem/bolsa1.webp);
+    background-image: url(imagem/bolsa1.webp);
 }
 #img-2{
-    background-image: url(/imagem/bolsa2.webp);
+    background-image: url(imagem/bolsa2.webp);
 }
 #img-3{
-    background-image: url(/imagem/bolsa3.webp);
+    background-image: url(imagem/bolsa3.webp);
 }
 #img-4{
-    background-image: url(/imagem/bolsa4.webp);
+    background-image: url(imagem/bolsa4.webp);
 }
 #img-5{
-    background-image: url(/imagem/bolsa5.webp);
+    background-image: url(imagem/bolsa5.webp);
 }
 #img-6{
-    background-image: url(/imagem/bolsa6.webp);
+    background-image: url(imagem/bolsa6.webp);
 }
 h3{
     margin-bottom: 10px;
