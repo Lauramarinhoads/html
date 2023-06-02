@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utF-9"/>
+<title> Looks </title>
+<meta name="description" content="Bem vindos ao site com html5, 
+css3 e jquery e design responsivo"/>
+
+<meta name="viewport" content="width-device-width, initial-scale=1"/>
+<link rel="shortcut icon" type="image/x-icon" href="img/logo_senai.png"/>
+
+<link rel="author" type="text/plain" href="humans.txt" />
+<link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml" />
+<link rel="stylesheet" href="css/estilo.css" />
+<link rel="stylesheet" href="css/flexslider.css" />
+<link rel="stylesheet" href="css/fancybox.css" />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+	
+<!--Script para plugin FancyBox -->
+<script>
+		!window.jQuery && document.write("<script src='js/jquery.min.js'><\/script>");
+	</script>
+	<script src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+	<script src="js/jquery.fancybox.js"></script>
+	<script>
+		$(document).on("ready",function(){
+			//fancybox
+			$("a[rel=trabalhos]").fancybox({
+				"transitionIn":"fade",
+				"transitionOut":"elastic",
+				"titlePosition":"over",
+				"titleFormat":function(title, currentArray, currentIndex, currentOpts){
+					return "<span id='fancybox-title-over'>Trabaho "+(currentIndex+1)+" de "+currentArray.length +(title.length?" &nbsp; "+title:"")+"</span>";
+				}
+			});
+			$(".fade").fancybox();
+		});
+	</script>	
+	
+</head>
+<body>
+
+<header>
+<h1> <a href="index.html"> <img class="fade" alt=""
+src="img/logo_senai.png" /> </a> </h1>
+
+<nav>
+<ul>
+<li><a href="index.html">Início</a></li>
+<li><a href="sobre.html">Sobre</a></li>
+<li><a href="famosos.html">Famosos</a></li>
+<li><a href="looks.html">Looks</a></li>
+<li><a href="contatos.html">Contatos</a></li>
+</nav>
+</header>
+
+<section id="conteudo">
+		<section id="trabalhos">
+			<h2>Os melhores looks da noite!</h2>
+				<div class="portifolio">
+					<article>
+						<a rel="trabalhos" class="fade" href="img/anne_looks.jpeg"
+						title="Trabalho 1">
+							<img src="img/anne_looks.jpg">
+						</a>
+					</article>
+					<article>
+						<a rel="trabalhos" class="fade" href="img/jlo_looks.jpg"
+						title="Trabalho 2">
+							<img src="img/jlo_looks.jpg">
+						</a>
+					</article>
+					<article>
+						<a rel="trabalhos" class="fade" href="img/cabeca_looks.jpg"
+						title="Trabalho 3">
+							<img src="img/cabeca_looks.jpg">
+						</a>
+					</article>
+					<article>
+						<a rel="trabalhos" class="fade" href="img/rosa_looks.jpg"
+						title="Trabalho 4">
+							<img src="img/rosa_looks.jpg">
+						</a>
+					</article>
+					<article>
+						<a rel="trabalhos" class="fade" href="img/dourado_looks.jpg"
+						title="Trabalho 5">
+							<img src="img/dourado_looks.jpg">
+						</a>
+					</article>
+					
+				</div>
+		</section>
+		
+</section>
+
+<footer>
+Met Gala 2023</a>
+
+
+</body>
+</html>
