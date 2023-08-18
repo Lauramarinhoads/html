@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:  rgb(163, 198, 198);
+}
+
+.container {
+    background-color: rgb(209, 63, 131);
+    height: 260px;
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container .active {
+    height: 500px;
+}
+
+#qr-header {
+    text-align: center;
+}
+
+#qr-header h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#qr-header p {
+    color: #680000;
+    font-size: 0.9rem;
+}
+
+.container #qr-form {
+    margin: 20px 15px;
+}
+
+#qr-form input,
+#qr-form button {
+    width: 100%;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+#qr-form input {
+    border: 1px solid #777;
+    padding: 10px 15px;
+}
+
+#qr-form button {
+    background-color:  rgb(255, 162, 206);
+    color:aliceblue;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#qr-form button:hover {
+    background-color:  rgb(201, 110, 153);
+    color: #680000;
+}
+
+.container #qr-code{
+    display: flex;
+    pointer-events: none;
+    border: 1px solid #ccc;
+    padding: 30px 0;
+    margin: 20px 15px;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.container.active #qr-code {
+    opacity: 1;
+    
+}
