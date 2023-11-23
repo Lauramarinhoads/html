@@ -44,6 +44,7 @@ i {
 .header-icons {
     display: flex;
     gap: 14px;
+     margin-left: 20px;
 }
 
 .header-icons a:hover i {
@@ -73,6 +74,7 @@ i {
     align-items:center;
     justify-content: center;
     margin-top: 14px; 
+    margin-right: -48px;
 }
 
 .hero {
